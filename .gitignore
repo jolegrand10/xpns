@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+.venv/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Logs
+*.log
+logs/
+
+# Application data (input invoices, generated reports, browser state)
+data/
+input/
+output/
+*.pdf
+
+# Playwright artifacts
+playwright-report/
+test-results/
+.auth/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
