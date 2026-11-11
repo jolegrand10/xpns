@@ -1,5 +1,7 @@
 # Xpns #
 
+<img src="assets/xpns.png" alt="Xpns" width="96">
+
 Automate the monthly expense report process.
 
 Using Playwright and Chromium.
@@ -269,5 +271,7 @@ Possible remaining steps - not envisaged at the moment
 * **`xpns/expensetype.py`**: the `ExpenseType` enum. Its values are the exact labels of Louty's "Type d'achat" list, typos included.
 
 * **`xpns/logsetup.py`**: `setup_logger()`, which logs to the console and to `logs/xpns.log`. Git ignores that file.
+
+* **`assets/`**: the Xpns icon. `xpns.svg` is the source to edit; `xpns.png` (256×256) is displayed at the top of this README; `xpns.ico` is the icon of the desktop shortcut (Properties > Change Icon… > `assets\xpns.ico`).
 
 * **`tests/`**: pytest tests (`python -m pytest`), one file per module. The CLI tests replace Louty, the folder dialog and `.env` with stand-ins, so the test suite never opens a browser.
